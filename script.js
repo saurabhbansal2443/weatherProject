@@ -16,7 +16,7 @@ searchButton.addEventListener("click",function(){
 })
 
 async function fetchApi(query = "gwalior") {
-    let apidata = await fetch(`http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${query}&aqi=no`);
+    let apidata = await fetch(`https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${query}&aqi=no`);
 
     let obj = await apidata.json();
 
