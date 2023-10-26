@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.mainContainer{
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: white; */
+}
+.searchbar{
+    height: 10%;
+    /* border: 2px solid red ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#input{
+    width: 40%;
+    height: 50%;
+    margin-right: 2%;
+    padding-left: 1%;
+    font-size: 1.5rem;
+}
+
+#button{
+    width: 20%;
+    height: 50%;
+    font-size: 1.5rem;
+}
+.displaybox{
+    background-color: white;
+    height: 60%;
+    width: 100%;
+    border-radius: 5vh;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;;
+}
+
+.box{
+    width: 80%;
+    height: 33%;
+    display: flex;
+    align-items: center;
+}
+
+#box1 , #box3{
+    justify-content: space-between;
+}
+
+#box2{
+    width: 30%;
+    justify-content: space-between;
+    font-size: 4rem;
+}
